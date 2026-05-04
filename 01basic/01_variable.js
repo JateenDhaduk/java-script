@@ -3,7 +3,7 @@ let email = "jateendhaduk@example.com";
 var accountPassword = "mySecurePassword123";
 accountCity = "surat";// not to be used without declaration, it will create a global variable which is not recommended
 // accountId = 12344; this is not allowed because accountId is a constant variable
-let accoutState;
+let accoutState; // output will be undefined because it is declared but not initialized
 email ="jateendhaduk2@example.com";
 accountPassword = "myNewSecurePassword456";
 accountCity = "mumbai";
