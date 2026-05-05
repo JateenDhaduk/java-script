@@ -39,3 +39,30 @@ const myFunction = function(){
 // boolean => boolean
 
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(premitive) , heap(Non - primitive)
+// stack give you copy of variable 
+// heap give to direct reference to variable 
+
+let myName = "jateen"
+
+let anotherName = myName;
+anotherName = "jeel"
+
+console.log(anotherName);
+console.log(myName);
+
+let userOne = {
+  email:"jateen@google.com"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "jeel@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
