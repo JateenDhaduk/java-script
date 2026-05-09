@@ -4,13 +4,13 @@
 
 // Object.create
 
-const sym = Symbol("key1")
+const sym = Symbol("key1") // how to define symbol 
 
 
 const jsUser = {
   name:"jateen",
   fullName:"Dhaduk Jateen",
-  [sym]:"myKey1",
+  [sym]:"myKey1", // this how to ues symbol as key in object 
   age:22,
   location:"surat",
   email:"jateen@google.com",
